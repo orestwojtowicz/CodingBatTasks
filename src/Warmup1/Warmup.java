@@ -34,8 +34,16 @@ public class Warmup {
 
         //System.out.println(close10(9,13));
 
-        System.out.println(max1020(23,10));
+        //System.out.println(max1020(23,10));
 
+
+        //System.out.println(delDel("del"));
+
+        //System.out.println(stringE("Heellee"));
+
+       // System.out.println(endUp("woo hoo"));
+
+        System.out.println(everyNth("Miracle", 2));
 
 
     }
@@ -423,9 +431,168 @@ return 0;
 
 
 }
+/*
+    We'll say that a number is "teen" if it is in the range 13..19 inclusive. Given 2 int values, return true if one or the other is teen, but not both.
 
+
+    loneTeen(13, 99) → true
+    loneTeen(21, 19) → true
+    loneTeen(13, 13) → false*/
+
+    public static boolean loneTeen(int a, int b) {
+
+
+        if((a<=19 && a>=13) && (b<=19 && b>=13) || ((a>19) && (b>19))) return false;
+
+
+        return true;
+
+
+
+    }
+/*
+    Given a string, if the string "del" appears starting at index 1, return a string where that "del" has been deleted. Otherwise, return the string unchanged.
+
+
+            delDel("adelbc") → "abc"
+    delDel("adelHello") → "aHello"
+    delDel("adedbc") → "adedbc"*/
+
+
+    public static String delDel(String str) {
+        if((str.length()<=3) && (!str.equals("del")) || str.equals("del")) {
+            return str;
+        }
+
+        if(str.substring(1,4).equals("del")) {
+            String first = str.substring(0,1);
+            String rest = str.substring(4, str.length());
+            return first+rest;
+
+        }
+
+
+
+        return str;
+
+
+
+    }
+
+
+   /* Return true if the given string contains between 1 and 3 'e' chars.
+
+            stringE("Hello") → true
+    stringE("Heelle") → true
+    stringE("Heelele") → false*/
+
+
+
+    public static boolean stringE(String str) {
+
+        int count = 0;
+
+
+        for(int i=0; i<str.length(); i++){
+
+            if(str.charAt(i) == 'e') {
+                count++;
+            }
+
+        }
+
+        return (count <=3 && count>=1);
+
+
+
+    }
+
+
+  /*  Given two non-negative int values, return true if they have the same last digit, such as with 27 and 57. Note that the % "mod" operator computes remainders, so 17 % 10 is 7.
+    lastDigit(7, 17) → true
+    lastDigit(6, 17) → false
+    lastDigit(3, 113) → true
+*/
+  public boolean lastDigit(int a, int b) {
+
+      int max = Math.max(a,b);
+      int min = Math.min(a,b);
+
+      int reminder = max%10;
+
+      if(reminder==min) return true;
+
+      return false;
+
+  }
+
+    public static String endUp(String str) {
+        //hi there --> hi thERE
+        if(str.length()<3) {
+            return str.toUpperCase();
+        }
+
+        String makeUpper = str.substring(str.length()-3).toUpperCase();
+
+         String firstPart = str.substring(0, str.length()-3);
+         return firstPart+makeUpper;
+
+
+
+    }
+
+
+
+/*
+    Given a non-empty string and an int N, return the string made starting with char 0, and then every Nth char of the string. So if N is 3, use char 0, 3, 6, ... and so on. N is 1 or more.
+
+    everyNth("Miracle", 2) → "Mrce"
+    everyNth("abcdefg", 2) → "aceg"
+    everyNth("abcdefg", 3) → "adg"
+*/
+
+
+    public static String everyNth(String str, int n) {
+
+        // usunac wybrany enty (n) string
+
+        //Miracle --> Mrce
+
+//Mi acle
+        String empty = "";
+
+            for(int i=0; i<str.length(); i+=n) {
+
+                empty = empty + str.charAt(i);
+
+            }
+
+
+
+        return empty;
+
+
+    }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
