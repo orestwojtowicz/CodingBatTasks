@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="61570351-2156-4920-8c1a-9283c488e94e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Warmup1/Warmup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Warmup1/Warmup.java" afterDir="false" />
-    </list>
+    <list default="true" id="61570351-2156-4920-8c1a-9283c488e94e" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,17 +11,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Warmup1/Warmup.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="537">
-              <caret line="565" column="46" selection-start-line="565" selection-start-column="46" selection-end-line="565" selection-end-column="46" />
+            <state relative-caret-position="-455">
+              <caret line="490" column="47" lean-forward="true" selection-start-line="490" selection-start-column="47" selection-end-line="490" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#monkeyTrouble#0;class#Warmup#0" />
                 <element signature="method#sumDouble#0;class#Warmup#0" />
                 <element signature="method#notString#0;class#Warmup#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Warmup2/Warmup2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="305">
+              <caret line="132" lean-forward="true" selection-start-line="132" selection-end-line="132" />
             </state>
           </provider>
         </entry>
@@ -44,13 +51,15 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/Warmup1/Warmup.java" />
+        <option value="$PROJECT_DIR$/src/Warmup2/Warmup2.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="1273" />
+    <option name="y" value="17" />
     <option name="width" value="1294" />
-    <option name="height" value="1407" />
+    <option name="height" value="1390" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -66,6 +75,23 @@
               <item name="CodingBat" type="b2602c69:ProjectViewProjectNode" />
               <item name="CodingBat" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="CodingBat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodingBat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CodingBat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodingBat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Warmup1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CodingBat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodingBat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Warmup2" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -75,7 +101,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552912857603" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552925369122" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -92,7 +118,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Warmup2">
     <configuration name="Warmup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Warmup1.Warmup" />
       <module name="CodingBat" />
@@ -106,8 +132,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Warmup2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Warmup2.Warmup2" />
+      <module name="CodingBat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Warmup2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Warmup2" />
         <item itemvalue="Application.Warmup" />
       </list>
     </recent_temporary>
@@ -124,18 +164,18 @@
       <updated>1552844052838</updated>
       <workItem from="1552844058279" duration="9587000" />
       <workItem from="1552891682466" duration="8018000" />
-      <workItem from="1552908013951" duration="4770000" />
+      <workItem from="1552908013951" duration="12793000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22375000" />
+    <option name="totallyTimeSpent" value="30398000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1273" y="0" width="1294" height="1407" extended-state="0" />
+    <frame x="1273" y="17" width="1294" height="1390" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10534846" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13209076" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -144,8 +184,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.1632653" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39952904" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.1646778" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39936358" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -154,7 +194,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32967034" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3293556" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -170,16 +210,30 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/lang/StringLatin1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Warmup1/Warmup.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="537">
-          <caret line="565" column="46" selection-start-line="565" selection-start-column="46" selection-end-line="565" selection-end-column="46" />
+        <state relative-caret-position="-455">
+          <caret line="490" column="47" lean-forward="true" selection-start-line="490" selection-start-column="47" selection-end-line="490" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#monkeyTrouble#0;class#Warmup#0" />
             <element signature="method#sumDouble#0;class#Warmup#0" />
             <element signature="method#notString#0;class#Warmup#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Warmup2/Warmup2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="132" lean-forward="true" selection-start-line="132" selection-end-line="132" />
         </state>
       </provider>
     </entry>
