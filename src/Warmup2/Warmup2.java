@@ -12,7 +12,7 @@ public class Warmup2 {
         //System.out.println(countXX("Hello there"));
         //System.out.println(doubleX("xaxx"));
 
-        System.out.println(stringBits("Chocoate"));
+        //System.out.println(stringBits("Chocoate"));
 
     }
 /*
@@ -126,9 +126,9 @@ public class Warmup2 {
     */
 
 
-    protected static String stringBits(String str) {
+    /*protected static String stringBits(String str) {
 
-        public String stringBits (String str){
+        public String stringBits(String str){
             String result = "";
 
             for (int i = 0; i < str.length(); i += 2) {
@@ -136,12 +136,12 @@ public class Warmup2 {
 
             }
             return result;
+
+
         }
 
 
-    }
-
-
+    }*/
 }
 
 
