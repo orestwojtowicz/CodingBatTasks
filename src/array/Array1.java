@@ -6,7 +6,7 @@ public class Array1 {
 
         int[] arr = {1,2,3,4};
 
-        System.out.println(makeMiddle(arr));
+        //System.out.println(makeMiddle(arr));
 
 
     }
