@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61570351-2156-4920-8c1a-9283c488e94e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/Array1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBat/CodeWars/DRoot.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBat/CodeWars/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CodeWars/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/array/Array1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array/Array1.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,8 +17,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Warmup2/Warmup2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="489">
-              <caret line="155" lean-forward="true" selection-start-line="155" selection-end-line="155" />
+            <state relative-caret-position="2635">
+              <caret line="155" selection-start-line="155" selection-end-line="155" />
             </state>
           </provider>
         </entry>
@@ -30,8 +26,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/array/Array1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="524">
-              <caret line="271" column="41" lean-forward="true" selection-start-line="271" selection-start-column="41" selection-end-line="271" selection-end-column="41" />
+            <state relative-caret-position="1025">
+              <caret line="378" column="5" selection-start-line="378" selection-start-column="5" selection-end-line="378" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -73,7 +69,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -100,6 +95,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -109,7 +105,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554671533911" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554671840807" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -218,18 +214,19 @@
       <workItem from="1552908013951" duration="12872000" />
       <workItem from="1552928888268" duration="89000" />
       <workItem from="1553004827167" duration="1458000" />
-      <workItem from="1554660569556" duration="6741000" />
+      <workItem from="1554660569556" duration="7033000" />
+      <workItem from="1554701516711" duration="1091000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38765000" />
+    <option name="totallyTimeSpent" value="40148000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1237" y="12" width="1294" height="1390" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.04943274" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24635333" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -238,7 +235,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.16785999" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.16785999" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39936358" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -246,7 +243,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.15194908" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.15115353" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3289166" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -286,24 +283,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CodeWars/SolutionsTest.java" />
     <entry file="file://$PROJECT_DIR$/src/CodeWars/DRoot.java" />
-    <entry file="file://$PROJECT_DIR$/src/CodeWars/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CodeWars/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/Warmup2/Warmup2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="155" lean-forward="true" selection-start-line="155" selection-end-line="155" />
+        <state relative-caret-position="2635">
+          <caret line="155" selection-start-line="155" selection-end-line="155" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/array/Array1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="271" column="41" lean-forward="true" selection-start-line="271" selection-start-column="41" selection-end-line="271" selection-end-column="41" />
+        <state relative-caret-position="1025">
+          <caret line="378" column="5" selection-start-line="378" selection-start-column="5" selection-end-line="378" selection-end-column="5" />
         </state>
       </provider>
     </entry>
